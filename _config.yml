@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Hello. I'm Zishran Garces"
+email: 'zishgarces@gmail.com'
+description: "I'm a <strong>Backend Engineer</strong> currently based in the Philippines creating useful things for the back of the web."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zishone.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: 'zishone'
+linkedin_username: 'zishone'
+medium_username: 'zishone'
+section_title: 'My Works'
+résumé_cv_link: 'https://drive.google.com/open?id=1w48t9qboaklUXRsKv558EePzXmOmiCv9'
+
+# Build settings
+markdown: kramdown
+# theme: phantom # Uncomment once published to RubyGems
+plugins:
+  - jekyll-paginate
+
+### Phantom settings
+paginate: 10
+footer_text: '© 2019 Zishran Garces'
+admin_name: 'Zishran Garces'
+google_analytics: "UA-104020116-2" # Update with your own tracking ID
+enable_contact: true
+
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
