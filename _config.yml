@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Zishran Garces"
-email: 'zishgarces@gmail.com'
-description: "I'm a <strong>Backend Engineer</strong> currently based in the Philippines creating useful things for the back of the web."
+email: ''
+description: "I'm a <strong>Backend Engineer</strong> currently based in Barcelona creating useful things for the back of the web."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zishone.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: 'zishone'
 linkedin_username: 'zishone'
 medium_username: 'zishone'
 section_title: 'My Works'
-résumé_cv_link: 'https://drive.google.com/open?id=1w48t9qboaklUXRsKv558EePzXmOmiCv9'
+résumé_cv_link: ''
 
 # Build settings
 markdown: kramdown
